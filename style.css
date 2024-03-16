@@ -124,15 +124,15 @@
         /* display: none; */
     }
 
-    /* 
+
     .card:hover {
         width: 70vw;/
-    } */
+    }
 
-    /* .card:hover .meaning {
+    .card:hover .meaning {
         display: flex;
         opacity: 1;
-    } */
+    }
 
 }
 

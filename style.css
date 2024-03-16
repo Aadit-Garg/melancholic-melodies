@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&display=swap');
+
 * {
     margin: 0vh;
     padding: 0vh;
+    font-family: 'Esteban', serif;
 }
+
 
 .header {
     /* background-color: black; */
@@ -96,7 +100,7 @@
 .summary {}
 
 .content {
-    font-size: 2vh;
+    font-size: 2.5vh;
     width: 69vh;
 }
 
@@ -111,13 +115,7 @@
 }
 
 /* mobile view less margin */
-@media only screen and (max-width: 60vh) {
-    .card {
-        width: 80vw;
-        /* margin: 2vh; */
 
-    }
-}
 
 @media screen and (min-width: 1145px) {
     .meaning {
@@ -140,10 +138,10 @@
 
 @media screen and (max-width: 1144px) {
     .card {
-        width: 80vw;
+        /* width: 80vw; */
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
 
     }
 
@@ -167,8 +165,13 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .title {
         font-size: 35px;
+    }
+
+    .card {
+        width: 80vw;
+        border-radius: 5px;
     }
 }

@@ -35,14 +35,11 @@
     height: 20vh;
     /* background-color: red; */
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.footer>title {
-    font-size: 30px;
-}
 
 .card {
     width: 70vh;
@@ -115,6 +112,22 @@
 }
 
 /* mobile view less margin */
+.end {
+    font-size: 4vh;
+}
+
+.end_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.credit {
+    font-size: 3vh;
+    /* font-style: italic; */
+}
 
 
 @media screen and (min-width: 1145px) {
@@ -125,14 +138,14 @@
     }
 
 
-    .card:hover {
+    /* .card:hover {
         width: 70vw;/
     }
 
     .card:hover .meaning {
         display: flex;
         opacity: 1;
-    }
+    } */
 
 }
 

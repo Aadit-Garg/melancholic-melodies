@@ -32,7 +32,9 @@
 .footer {
     border-top: solid 2px #e8e8e8;
     margin: none;
-    height: 20vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    height: auto;
     /* background-color: red; */
     display: flex;
     flex-direction: column;
@@ -186,5 +188,15 @@
     .card {
         width: 80vw;
         border-radius: 5px;
+    }
+
+    .end_div {
+        font-size: 2vh;
+        margin-bottom: 1vh;
+    }
+
+    .end {
+
+        font-size: 2vh;
     }
 }

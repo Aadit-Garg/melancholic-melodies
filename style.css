@@ -6,6 +6,9 @@
     font-family: 'Esteban', serif;
 }
 
+body {
+    background-color: white;
+}
 
 .header {
     /* background-color: black; */

@@ -154,6 +154,11 @@ body {
 
 }
 
+.copyright {
+    color: #bdbdbd;
+    font-size: 2vh;
+}
+
 @media screen and (max-width: 1144px) {
     .card {
         /* width: 80vw; */
@@ -201,5 +206,14 @@ body {
     .end {
 
         font-size: 2vh;
+    }
+
+    .copyright {
+        color: #bdbdbd;
+        font-size: 2vh;
+    }
+
+    .header {
+        height: 12vh;
     }
 }
